@@ -1,0 +1,353 @@
+html{
+    position: relative;
+}
+body{
+    
+    background-color: #dddddd;
+    margin: 0;
+    padding: 0;
+}
+#slider{
+    position: relative;
+    background-image: url('../img/sliders.jpg');
+    height: 44rem;
+    width: 100%;
+    display: inline-block;
+}
+#slider .slider-heading{
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    top: 9rem;
+    font-family: sans-serif, cursive;
+    font-size: 2rem;
+    display: inline;
+}
+#slider .slider-heading span{
+    position: relative;
+    text-transform: uppercase;
+}
+#slider .slider-para {
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+     font-size: 1.2rem;
+    font-size: 1rem;
+    top: 9rem;
+    display: inline;
+}
+#slider .slider-para2 {
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+     font-size: 1.2rem;
+    font-size: 1.9rem;
+    top: 10rem;
+    text-transform: uppercase;
+   
+}
+#slider .slider-para2::before{
+    position: absolute;
+    content: " ";
+    border: 1px solid #ffffff;
+    width: 8rem;
+    top: 40%;
+    right: 65%;
+    line-height: 90%;
+    z-index: 2;
+}
+#slider .slider-para2::after{
+    position: absolute;
+    content: " ";
+    border: 1px solid #ffffff;
+    width: 8rem;
+    top: 40%;
+    left: 65%;
+    line-height: 90%;
+    z-index: 2;
+}
+#slider .slider-icons {
+    position: relative;
+    top: 10rem;
+    left: 32rem;
+    display: inline-block;
+}
+#slider .slider-icons img{
+    position: relative;
+    border-radius: 50%;
+    padding: 0.2rem;
+}
+#slider .slider-icons::after{
+    position: absolute;
+    content: " ";
+    border: 3px solid #ffffff;
+    padding: 33px 23px;
+    border-radius: 48%;
+    top: 240%;
+    left: 37%;
+    line-height: 90%;
+    z-index: 2;
+}
+#about{
+    position: relative;
+    height: 56rem;
+    width: 100%;
+    display: inline-block;
+}
+#about::before{
+    position: absolute;
+    content: " ";
+    border: 2px solid #ffffff;
+    padding: 29px 8px;
+    left: 38rem;
+    background-color: #ffffff;
+}
+#about .about-heading{
+    position: relative;
+    color: #4e4e4e;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #ffffff;
+    left: 12rem;
+       
+    width: 55rem;
+    top: 2rem;
+    line-height: 6rem;
+}
+#about .about-heading::after{
+    position: absolute;
+    content: " ";
+    border: 2px solid #ffffff;
+    padding: 0px 8px 89px 8px;
+    left: 26rem;
+    top: 5.2rem;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+#about .about-img img{
+    position: relative;
+    height: 15rem;
+    width: 15rem;
+    top: 5rem;
+    left: 31rem;
+    border-radius: 50%;
+    border: 10px solid #ffffff;
+}
+#about .about-details{
+    position: relative;
+    color: #4e4e4e;   
+    text-align: center;
+    background-color: #ffffff;
+    left: 24rem;
+    height: 18rem;
+    line-height: 1.4rem;        
+    width: 32rem;
+    top: 11rem;
+}
+#about .about-details span{
+    position: relative;
+    text-transform: capitalize;
+    color: #ff9600
+}
+#about .about-details button{
+    position: relative;
+    text-align: center;
+    font-size: 1rem;
+    height: 2rem;
+    background-color: #ff9600;
+    border: 1px solid #ff9600;
+    
+}
+#about .about-details button img{
+    position: relative;
+    height: 1rem;
+    width: 1rem;
+}
+#skills{
+    position: relative;
+    height: 45rem;
+    margin: 0;
+    width: 100%;
+    display: inline-block;
+}
+#skills::before{
+    position: absolute;
+    content: " ";
+    border: 2px solid #ffffff;
+    padding: 29px 8px;
+    left: 38rem;
+    background-color: #ffffff;
+}
+
+#skills .skills-heading{
+    position: relative;
+    color: #4e4e4e;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #ffffff;
+    left: 12rem;
+    width: 70rem;    
+    width: 55rem;
+    top: 2rem;
+    line-height: 6rem;
+}
+#skills .skills-heading::after{
+    position: absolute;
+    content: " ";
+    border: 2px solid #ffffff;
+    padding: 0px 8px 89px 8px;
+    left: 26rem;
+    top: 6.1rem;
+    background-color: #ffffff;
+    z-index: 1;
+}
+#skills .skills-progressbar{
+    position: relative;    
+    background-color: #ffffff;
+    left: 22rem;
+    padding: 2rem;
+    height: 26rem;
+    line-height: 1.4rem;        
+    width: 34rem;
+    top: 6rem;
+}
+#skills .skills-progressbar p{
+    position: relative;
+    color: #4e4e4e; 
+    line-height: 1.4rem;   
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem
+}
+#skills .skills-progressbar .progressbars{
+    position: relative;
+    background-color: #e3e3e3;
+   
+}
+#skills .skills-progressbar .progressbars .progress{
+    position: relative;
+    
+    color: #ffffff;
+    background-color: #007bb6;
+}
+#skills .skills-progressbar .progressbars .one{
+    position: relative;
+    width: 30%;
+}
+#skills .skills-progressbar .progressbars .two{
+    position: relative;
+    width: 40%;
+}
+#skills .skills-progressbar .progressbars .three{
+    position: relative;
+    width: 60%;
+}
+#skills .skills-progressbar .progressbars .four{
+    position: relative;
+    width: 50%;
+}
+#skills .skills-progressbar .progressbars .five{
+    position: relative;
+    width: 40%;
+}
+#awards{
+    position: relative;
+    height: 50rem;
+    margin: 0;
+    width: 100%;
+    display: inline-block;
+}
+#awards::before{
+    position: absolute;
+    content: " ";
+    border: 2px solid #ffffff;
+    padding: 29px 8px;
+    left: 38rem;
+    background-color: #ffffff;
+}
+
+#awards .awards-heading{
+    position: relative;
+    color: #4e4e4e;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #ffffff;
+    left: 12rem;
+    width: 70rem;    
+    width: 55rem;
+    top: 2rem;
+    line-height: 6rem;
+}
+#awards .awards-heading::after{
+    position: absolute;
+    content: " ";
+    border: 2px solid #ffffff;
+    padding: 0px 8px 89px 8px;
+    left: 26rem;
+    top: 6.1rem;
+    background-color: #ffffff;
+    z-index: 1;
+}
+#awards .award-details{
+    position: relative;
+    background-color: #ffffff;
+    left: 12rem;
+    width: 55rem;    
+    top: 6rem;    
+}
+#awards .award-details .awd-dtl h2{
+    position: relative;
+    text-transform: uppercase;
+}
+#awards .award-details .awd-dtl span{
+    position: relative;
+    text-transform: capitalize;
+    color: #dcdcdc;
+}
+#awards .award-details .awd-dtl span{
+    position: relative;
+    color: #919191;
+}
+#awards .award-details .awardone{
+    position: relative;
+    display:inline-block;
+    }
+
+#awards .award-details .award-img{
+    position: relative;
+    display: inline;
+}
+#awards .award-details .award-img img{
+    position: relative;
+    margin-top: 0.5rem;
+    
+}
+#awards .award-details .awd-dtl{
+    position: relative;
+    display: inline;
+    width: 20rem;
+    float: right;
+
+}
+#awards .award-details .awardtwo{
+    position: relative;
+    display:inline-block;
+    
+    }
+#awards .award-details .awardthree{
+    position: relative;
+    display:inline-block;
+    
+    }
+#awards .award-details .awardfour{
+    position: relative;
+    display:inline-block;
+   
+    }
+
